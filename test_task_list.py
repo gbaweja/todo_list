@@ -1,4 +1,4 @@
-import mock_task_list as task_list
+import mongo_task_list as task_list
 import pytest
 
 def setup_module():

@@ -3,9 +3,9 @@ import pymongo
 from pymongo import MongoClient
 from bson.objectid import ObjectId
 
-client = MongoClient("mongodb://greg:happy121@ds221258.mlab.com:21258/cloudapps")
+client = MongoClient("mongodb://Govi:govi@ds157818.mlab.com:57818/todo")
 
-db = client.cloudapps
+db = client.todo
 current_tasks = db.current_tasks
 
 def get_tasks():
